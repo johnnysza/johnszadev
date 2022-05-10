@@ -1,6 +1,6 @@
 import React from 'react' 
 import { useState } from 'react'
-import Logo from '../../assets/JS_Logo.png'
+import Logo from '../../assets/JS_logo2.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 
