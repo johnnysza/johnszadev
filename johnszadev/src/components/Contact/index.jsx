@@ -46,7 +46,7 @@ const Contact = () => {
             <li className="mb-5 text-gray-300">
               <a
                 className="md:hidden"
-                href="https://www.linkedin.com/in/jonathan-da-silva-souza-a97525182/"
+                href="https://www.linkedin.com/in/jonathansilvasza/"
                 target={"_blank"}
                 rel="noreferrer"
               >
