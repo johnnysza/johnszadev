@@ -24,7 +24,7 @@ const Work = () => {
                     Project
                   </button>
                 </a>
-                <a href="https://instant-weather-taupe.vercel.app">
+                <a href="https://github.com/johnnysza/instant-weather">
                   <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     GitHub
                   </button>
