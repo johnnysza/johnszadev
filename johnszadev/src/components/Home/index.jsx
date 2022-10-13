@@ -1,5 +1,4 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
@@ -17,18 +16,10 @@ const Home = () => {
           I'm a Front-End Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a Front-End Junior Developer, who's main aspiration is to build
+          I'm a Junior Front-End Developer, who's main aspiration is to build
           the best websites i can. I'm focused on building fully responsive
-          websites that are intuitive and pleasant to the user.{" "}
+          websites that are intuitive and pleasant to the user.
         </p>
-        <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-600">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3 " />
-            </span>
-          </button>
-        </div>
       </div>
     </div>
   );
