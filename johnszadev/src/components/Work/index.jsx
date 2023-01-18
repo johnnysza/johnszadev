@@ -9,9 +9,9 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-400 ">
-            Work
+            Projetos
           </p>
-          <p className="py-6">Check out some of my recent work</p>
+          <p className="py-6">Veja aqui alguns projetos que criei</p>
         </div>
 
         <div className="grid sm: grid-cols-2 md:grid-cols-3 gap-4">
@@ -21,8 +21,8 @@ const Work = () => {
                 Instant Weather
               </span>
               <span className="text-sm  pt-4 flex justify-center text-center">
-                A classic weather app, built with ReactJs, using the
-                OpenWeatherAPI, ContextAPI and styled with TailwindCSS.
+                Uma aplicação de previsão de tempo, feita em React, utilizando a
+                OpenWeatherAPI, ContextAPI e estilizado com TailWind CSS.
               </span>
               <div className="pt-4 flex justify-center text-center ">
                 <a
@@ -30,7 +30,7 @@ const Work = () => {
                   target="blank"
                 >
                   <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
-                    Project
+                    Projeto
                   </button>
                 </a>
                 <a
@@ -50,8 +50,8 @@ const Work = () => {
                 Kenzie Shop
               </span>
               <span className="text-sm pt-4 flex justify-center text-center">
-                A basic e-commerce website, built with ReactJS, ContextAPI and
-                styled with Styled Components.
+                Um site de e-commerce, feito em React, ContextAPI e estilizado
+                com Styled Components.
               </span>
               <div className="pt-4 flex justify-center text-center ">
                 <a
@@ -79,8 +79,7 @@ const Work = () => {
                 Kenzie Burguer
               </span>
               <span className="text-sm  pt-6 flex justify-center text-center">
-                A fast food e-commerce, built with ReactJS, with a simple
-                stylization.
+                Um e-commerce de fast-food, feito em ReactJS.
               </span>
               <div className="pt-8 flex justify-center text-center ">
                 <a href="https://burguer-kenzie-tau.vercel.app" target="blank">

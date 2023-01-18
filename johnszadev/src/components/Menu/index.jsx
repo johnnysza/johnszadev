@@ -24,22 +24,22 @@ const Menu = () => {
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            About
+            Sobre
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            Habilidades
           </Link>
         </li>
         <li>
           <Link to="work" smooth={true} duration={500}>
-            Work
+            Projetos
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            Contato
           </Link>
         </li>
       </ul>
@@ -64,22 +64,22 @@ const Menu = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+            Sobre
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            Habilidades
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+            Projetos
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+            Contato
           </Link>
         </li>
       </ul>

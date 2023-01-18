@@ -8,18 +8,14 @@ const Home = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-gray-400 italic">Hi, my name is</p>
+        <p className="text-gray-400 italic">Olá, meu nome é</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Jonathan Souza
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Front-End Developer
+          Sou um desenvolvedor front end.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a Junior Front-End Developer, who's main aspiration is to build
-          the best websites i can. I'm focused on building fully responsive
-          websites that are intuitive and pleasant to the user.
-        </p>
+        <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
       </div>
     </div>
   );

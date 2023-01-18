@@ -1,4 +1,5 @@
 import React from "react";
+// import DevPhoto from "../../assets/photo.jpeg";
 
 const About = () => {
   return (
@@ -10,23 +11,28 @@ const About = () => {
         <div className="max-w=[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-gray-400">
-              About
+              Sobre
             </p>
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl font-bold">
             <p>
-              Hi, i'm Jonathan, nice to meet you. Please take a look around.
+              Olá, sou Jonathan, é um prazer conhecê-lo(a). Por favor, fique a
+              vontade!
             </p>
           </div>
           <div className="text-2xl font-bold">
             <p>
-              I'm a Develeper from São Paulo - Brazil and i'm passionate about
-              building excellent applications that improves the lives of those
-              around me.
+              Sou um desenvolvedor de São Paulo - Brasil e tenho uma paixão em
+              construir sites que despertem alegria, satisfação e
+              principalmente, inspiração para todos aqueles que tenham interesse
+              nessa grande área que é a programação.
             </p>
           </div>
+          {/* <div className="">
+            <img className="w-20 mx-auto my-4 " src={DevPhoto} alt="" />
+          </div> */}
         </div>
       </div>
     </div>
