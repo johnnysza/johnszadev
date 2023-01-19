@@ -1,5 +1,5 @@
 import React from "react";
-// import DevPhoto from "../../assets/photo.jpeg";
+import DevPhoto from "../../assets/Photo2.jpeg";
 
 const About = () => {
   return (
@@ -14,6 +14,9 @@ const About = () => {
               Sobre
             </p>
           </div>
+        </div>
+        <div className="w-60 pb-4">
+          <img className="rounded-full " src={DevPhoto} alt="" />
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl font-bold">
@@ -30,9 +33,6 @@ const About = () => {
               nessa grande área que é a programação.
             </p>
           </div>
-          {/* <div className="">
-            <img className="w-20 mx-auto my-4 " src={DevPhoto} alt="" />
-          </div> */}
         </div>
       </div>
     </div>

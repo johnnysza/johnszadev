@@ -52,7 +52,7 @@ const Skills = () => {
               src={TailWind}
               alt="TailWind icon"
             />
-            <p className="my-4">TailWind CSS</p>
+            <p className="my-4">Tailwind CSS</p>
           </div>
         </div>
       </div>
