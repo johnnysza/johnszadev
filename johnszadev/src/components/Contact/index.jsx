@@ -22,7 +22,7 @@ const Contact = () => {
           <input
             className="bg-[#ccd6f6] p-2"
             type="text"
-            placeholder="Name"
+            placeholder="Nome"
             name="name"
           />
           <input
@@ -35,7 +35,7 @@ const Contact = () => {
             className="bg-[#ccd6f6] p-2"
             name="message"
             rows="10"
-            placeholder="Message"
+            placeholder="Mensagem"
           ></textarea>
           <button className="text-white border-2 hover:bg-gray-700 px-4 py-3 my-8 mx-auto flex items-center">
             Contato!

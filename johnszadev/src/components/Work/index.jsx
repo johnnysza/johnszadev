@@ -98,6 +98,29 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div className="shadow-lg shadow-[#626364] group container rounded-md flex justify-center items-center mx-auto content-div pt-5">
+            <div>
+              <span className="text-4xl flex justify-center text-center">
+                Jokempo
+              </span>
+              <span className="text-sm  pt-4 flex justify-center text-center">
+                Um jogo de pedra, papel e tesoura. Feito em JS Vanilla, HTML e
+                CSS.
+              </span>
+              <div className="pt-4 flex justify-center text-center ">
+                <a href="https://jokempo-ebon.vercel.app/" target="blank">
+                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                    Projeto
+                  </button>
+                </a>
+                <a href="https://github.com/johnnysza/jokempo" target="blank">
+                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                    GitHub
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
