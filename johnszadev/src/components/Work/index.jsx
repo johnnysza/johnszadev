@@ -20,16 +20,16 @@ const Work = () => {
               <span className="text-4xl flex justify-center text-center">
                 Instant Weather
               </span>
-              <span className="text-sm  pt-4 flex justify-center text-center">
+              <span className="text-sm pt-4 pr-4 pl-4 flex justify-center text-center">
                 Uma aplicação de previsão de tempo, feita em React, utilizando a
-                OpenWeatherAPI, ContextAPI e estilizado com TailWind CSS.
+                OpenWeatherAPI, ContextAPI e estilizado com Tailwind CSS.
               </span>
-              <div className="pt-4 flex justify-center text-center ">
+              <div className="pt-4 flex justify-center text-center text-xs">
                 <a
                   href="https://instant-weather-taupe.vercel.app"
                   target="blank"
                 >
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2 border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     Projeto
                   </button>
                 </a>
@@ -37,7 +37,7 @@ const Work = () => {
                   href="https://github.com/johnnysza/instant-weather"
                   target="blank"
                 >
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     GitHub
                   </button>
                 </a>
@@ -49,16 +49,16 @@ const Work = () => {
               <span className="text-4xl flex justify-center text-center">
                 Kenzie Shop
               </span>
-              <span className="text-sm pt-4 flex justify-center text-center">
+              <span className="text-sm pt-4 pr-4 pl-4  flex justify-center text-center">
                 Um site de e-commerce, feito em React, ContextAPI e estilizado
                 com Styled Components.
               </span>
-              <div className="pt-4 flex justify-center text-center ">
+              <div className="pt-4 flex justify-center text-center text-xs">
                 <a
                   href="https://react-entrega-s3-kenzishop-com-context-api-johnnysza.vercel.app"
                   target="blank"
                 >
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     Project
                   </button>
                 </a>
@@ -66,7 +66,7 @@ const Work = () => {
                   href="https://github.com/johnnysza/Kenzie-Shop"
                   target="blank"
                 >
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     GitHub
                   </button>
                 </a>
@@ -75,15 +75,15 @@ const Work = () => {
           </div>
           <div className="shadow-lg shadow-[#626364] group container rounded-md flex justify-center items-center mx-auto content-div">
             <div>
-              <span className="text-4xl flex justify-center text-center">
+              <span className="text-4xl flex justify-center text-center ">
                 Kenzie Burguer
               </span>
-              <span className="text-sm  pt-6 flex justify-center text-center">
+              <span className="text-sm  pt-6 pr-4 pl-4 flex justify-center text-center">
                 Um e-commerce de fast-food, feito em ReactJS.
               </span>
-              <div className="pt-8 flex justify-center text-center ">
+              <div className="pt-8 flex justify-center text-center text-xs">
                 <a href="https://burguer-kenzie-tau.vercel.app" target="blank">
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     Project
                   </button>
                 </a>
@@ -91,7 +91,7 @@ const Work = () => {
                   href="https://github.com/johnnysza/Burguer-Kenzie"
                   target="blank"
                 >
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     GitHub
                   </button>
                 </a>
@@ -103,18 +103,18 @@ const Work = () => {
               <span className="text-4xl flex justify-center text-center">
                 Jokempo
               </span>
-              <span className="text-sm  pt-4 flex justify-center text-center">
+              <span className="text-sm  pt-4 pr-4 pl-4  flex justify-center text-center">
                 Um jogo de pedra, papel e tesoura. Feito em JS Vanilla, HTML e
                 CSS.
               </span>
-              <div className="pt-4 flex justify-center text-center ">
+              <div className="pt-4 flex justify-center text-center text-xs">
                 <a href="https://jokempo-ebon.vercel.app/" target="blank">
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     Projeto
                   </button>
                 </a>
                 <a href="https://github.com/johnnysza/jokempo" target="blank">
-                  <button className="text-white border-2 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
+                  <button className="text-white border-2  border-gray-800 hover:border-slate-400 hover:bg-gray-700 px-4 py-2 my-3 mx-1 flex items-center">
                     GitHub
                   </button>
                 </a>
